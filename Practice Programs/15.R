@@ -1,0 +1,6 @@
+v_num <- c(1, 2, 3)
+v_char <- c("A", "B", "C")
+v_log <- c(TRUE, FALSE, TRUE)
+print(v_num); print(class(v_num))
+print(v_char); print(class(v_char))
+print(v_log); print(class(v_log))

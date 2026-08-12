@@ -1,0 +1,5 @@
+name <- readline(prompt="Enter Name: ")
+age <- readline(prompt="Enter Age: ")
+print(paste("Name:", name))
+print(paste("Age:", age))
+print(R.version.string)
