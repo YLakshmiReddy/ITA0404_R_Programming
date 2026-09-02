@@ -1,0 +1,5 @@
+set.seed(42)
+norm_vals <- rnorm(100, mean = 50, sd = 10)
+rounded_vals <- round(norm_vals)
+print("Frequency counts of rounded values:")
+print(table(rounded_vals))
